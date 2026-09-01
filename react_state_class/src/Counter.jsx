@@ -1,10 +1,11 @@
-export default function Counter(){
-    let count = 0;
+import {useState} from "react";
 
+export default function Counter(){
+    let [count, setCount] = useState(0);
     function incCount(){
-        count += 1;
+        setCount(count + 1);
         console.log(count);
-    }
+    };
 
     return (
         <div>
