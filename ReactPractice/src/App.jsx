@@ -8,8 +8,9 @@ function App() {
 
   return (
     <>
-      {/* <Counter /> */}
+      <Counter />
       <UserInput />
+      <UserInput></UserInput>
     </>
   )
 }
